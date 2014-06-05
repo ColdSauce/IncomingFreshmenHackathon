@@ -1,0 +1,78 @@
+body {
+
+	color: #42434f;
+
+	background-color: #eee;
+	font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #000;
+  -o-transition:color .2s ease-out, background 2s ease-in;
+  -ms-transition:color .2s ease-out, background 2s ease-in;
+  -moz-transition:color .2s ease-out, background 2s ease-in;
+  -webkit-transition:color .2s ease-out, background 2s ease-in;
+  /* ...and now for the proper property */
+   transition:color .2s ease-out;
+  text-decoration: none;
+}
+
+a:hover {
+	color: #ccc;
+}
+
+
+header {
+	border-bottom: 5px solid #919096;
+
+    background: #42434f;
+
+    width: 100%;
+    color:#fff; 
+    text-decoration: none; 
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+
+}
+
+header h1 {
+	text-align: center;
+}
+
+
+ul {
+	list-style: none;
+}
+#mainList li {
+
+	background-color: #fff;
+	padding: 10px 10px;
+	width: 90%;
+	height: 20%;
+	border:5px solid #919096;
+	margin: 0 0 2.5% 0;
+}
+
+#secondList li {
+	float:left;
+	padding: 0;
+	width: 20%;
+	height: 20%;
+	border:none;
+	margin: 0;
+}
+
+li p {
+	font-size: 1.4em;
+}
+
+
+
+ul h1 {
+	text-align: center;
+}
+
+#mainBody {
+	margin-top: 150px;
+}
