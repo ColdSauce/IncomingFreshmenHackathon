@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #000;
+  color: #000080;
   -o-transition:color .2s ease-out, background 2s ease-in;
   -ms-transition:color .2s ease-out, background 2s ease-in;
   -moz-transition:color .2s ease-out, background 2s ease-in;
