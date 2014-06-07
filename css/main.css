@@ -38,6 +38,7 @@ header {
 
 header h1 {
 	text-align: center;
+  padding: 0 0.5em;
 }
 
 
@@ -51,7 +52,7 @@ ul {
 #mainList li {
 
 	background-color: #fff;
-	padding: 10px 10px;
+	padding: 5px 10px;
 	border:5px solid #919096;
 	margin: 0 0 2.5% 0;
 
@@ -59,6 +60,7 @@ ul {
 
 #secondList {
   display: table;
+  padding: 0 1em;
 }
 
 #secondList li {
@@ -68,11 +70,14 @@ ul {
 	width: 20%;
 	border:none;
 	margin: 0;
-  vertical-align: top
+  vertical-align: top;
+  font-size: 1.2em
 }
 
 li p {
 	font-size: 1.4em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 
